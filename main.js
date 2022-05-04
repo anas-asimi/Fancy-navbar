@@ -6,6 +6,7 @@ function Nav_fun() {
 
         document.getElementById("nav-items").style.transform = "translateX(100%)" ;
         document.getElementById("menu-btn").className = "fa-solid fa-angles-left fa-2x";
+        document.querySelector("body").style.overflow = "hidden" ;
     }
     // 
     // 
@@ -13,6 +14,7 @@ function Nav_fun() {
 
         document.getElementById("nav-items").style.transform = "translateX(0%)" ;
         document.getElementById("menu-btn").className = "fa-solid fa-angles-right fa-2x";
+        document.querySelector("body").style.overflow = "hidden" ;
     }
 
 }
